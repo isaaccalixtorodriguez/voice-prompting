@@ -1,31 +1,5 @@
 # UK University coding challenge
 
-## Project Structure
-
-The project follows a common structure for Node.js applications. Here is the general structure:
-
-```plaintext
-src/
-├── app.ts
-├── controllers
-│   ├── AppController.ts
-│   └── index.ts
-├── interfaces
-│   ├── App.ts
-│   └── index.ts
-├── middlewares
-│   └── SchemaValidator.ts
-├── routes
-│   ├── AppRouter.ts
-│   └── index.ts
-└── services
-    ├── AppService.ts
-    └── index.ts
-test/
-├── app.test.ts
-└── tsconfig.json
-```
-
 ## Available Scripts
 In the project directory, you can run the following scripts:
 
