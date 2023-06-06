@@ -1,1 +1,3 @@
-export { AppService } from '@src/services/AppService';
+export { AudioService } from './audio.service';
+export { TranscriberService } from './transcriber.service';
+export { CompletionService } from './completion.service';

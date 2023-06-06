@@ -4,5 +4,7 @@ dotenv.config();
 
 export const appConfig = cleanEnv(process.env, {
   NODE_ENV: str({ choices: ['development', 'production'], default: 'development' }),
-  EXAMPLE: str({ default: '' })
+  FORMAT_RECORD: str({ default: 'mp3' }),
+  PATH_RECORD: str({ default: './data/record.mp3' }),
+  OPENAI_API_KEY: str({ default: '' })
 });
